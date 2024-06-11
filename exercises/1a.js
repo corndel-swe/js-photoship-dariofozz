@@ -8,6 +8,16 @@
  * @param {number[]} nums - An array of numbers.
  * @returns {number} The sum of the first and last elements.
  */
-export function firstAddLast(nums) {
   // TODO
+
+  export function firstAddLast(nums) {
+    // get the first value of the nums array
+    const firstValue = nums[0]
+    // get the last value
+    const lastValue = nums[nums.length - 1]
+    // add the first and last value
+    const result = firstValue + lastValue
+    // return the result
+    return result
+
 }
