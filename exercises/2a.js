@@ -14,9 +14,9 @@
 export function arrayRotate(arr) {
   const lastelement = arr.pop()
   arr.unshift(lastelement) 
-  
+  return arr
 }
 
-//const testarray = [z,x,y]
-//const result= arrayRotate(testarray)
-//console.log(result)
+const testarray = ['z','x','y']
+const result= arrayRotate(testarray)
+console.log(result)

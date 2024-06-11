@@ -11,5 +11,6 @@
  * @returns {Array} The array in MB
  */
 export function convertFilesizes(arr) {
+  const filesize = 
   // TODO
 }
