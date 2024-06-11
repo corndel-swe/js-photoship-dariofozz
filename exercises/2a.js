@@ -8,6 +8,15 @@
  * @param {Array} arr - The input array
  * @returns {Array} The array with the last element at the front
  */
+
+// TODO
+
 export function arrayRotate(arr) {
-  // TODO
+  const lastelement = arr.pop()
+  arr.unshift(lastelement) 
+  
 }
+
+//const testarray = [z,x,y]
+//const result= arrayRotate(testarray)
+//console.log(result)
