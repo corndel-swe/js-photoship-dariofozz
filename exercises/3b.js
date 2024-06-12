@@ -12,7 +12,7 @@
  */
 export function formatPrice(amount, currency) {
   const price = amount.toFixed(2)
-  const.log('£'+ amount)
+  console.log('£'+ amount)
   return amount
   // TODO
 }
