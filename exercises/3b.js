@@ -11,5 +11,8 @@
  * @returns {string} currency The formatted number
  */
 export function formatPrice(amount, currency) {
+  const price = amount.toFixed(2)
+  const.log('£'+ amount)
+  return amount
   // TODO
 }
